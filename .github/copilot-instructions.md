@@ -10,6 +10,7 @@ This is a modern static web application built with Vue 3, TypeScript, and Vite. 
 **Frameworks**: Vue 3 (Composition API), Vue Router 5, Vite 7
 **Target Runtime**: Modern web browsers (ES2020+)
 **Deployment**: GitHub Pages (automated via GitHub Actions)
+**Recommended IDE**: VS Code with Volar extension
 
 ## Build & Development Commands
 
@@ -75,6 +76,8 @@ va-demo/
 │   ├── workflows/
 │   │   └── deploy.yml          # GitHub Actions deployment workflow
 │   └── copilot-instructions.md # This file
+├── .vscode/
+│   └── extensions.json         # Recommended VS Code extensions
 ├── src/
 │   ├── components/             # Reusable Vue components
 │   │   └── HelloWorld.vue
@@ -113,8 +116,12 @@ va-demo/
 
 3. **tsconfig.app.json**:
    - Strict TypeScript mode enabled
-   - Linting rules: `noUnusedLocals`, `noUnusedParameters`, `noFallthroughCasesInSwitch`
+   - Linting rules: `noUnusedLocals`, `noUnusedParameters`, `noFallthroughCasesInSwitch`, `erasableSyntaxOnly`, `noUncheckedSideEffectImports`
    - Includes all `.ts`, `.tsx`, `.vue` files in `src/`
+
+4. **.vscode/extensions.json**:
+   - Recommends `Vue.volar` extension for VS Code
+   - Provides best Vue 3 development experience with TypeScript support
 
 ### Continuous Integration
 

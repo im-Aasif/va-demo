@@ -58,25 +58,10 @@ pnpm test:e2e:ui
 
 ## 🌐 Deployment to GitHub Pages
 
-### Setup Instructions
+The site automatically deploys to GitHub Pages on every push to `main` via GitHub Actions.
 
-1. **Push your code to GitHub**
-
-   ```bash
-   git add .
-   git commit -m "Initial commit"
-   git push origin main
-   ```
-
-2. **Enable GitHub Pages**
-   - Go to your repository on GitHub
-   - Navigate to **Settings** → **Pages**
-   - Under **Source**, select **GitHub Actions**
-
-3. **Automatic Deployment**
-   - The GitHub Actions workflow will automatically run on every push to `main`
-   - Check the **Actions** tab to see deployment progress
-   - Once complete, your site will be live at `https://<username>.github.io/va-demo/`
+- Check the **Actions** tab to see deployment progress
+- Once complete, your site will be live at `https://<username>.github.io/va-demo/`
 
 ### Configuration
 

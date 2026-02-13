@@ -21,6 +21,7 @@ import { RouterView, RouterLink } from 'vue-router'
     </main>
     <footer>
       <p>Built with Vue 3 + TypeScript + Vite | Deployed on GitHub Pages</p>
+      <p>Testing protect branch!</p>
     </footer>
   </div>
 </template>

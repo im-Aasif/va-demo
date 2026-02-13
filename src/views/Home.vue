@@ -2,7 +2,7 @@
   <div class="home">
     <h1>Welcome to Your Vue App</h1>
     <p>This is a modern Vue 3 + TypeScript + Vite static site hosted on GitHub Pages.</p>
-    
+
     <div class="features">
       <h2>Features</h2>
       <ul>
@@ -16,9 +16,7 @@
     </div>
 
     <div class="actions">
-      <RouterLink to="/about" class="button">
-        Learn More →
-      </RouterLink>
+      <RouterLink to="/about" class="button"> Learn More → </RouterLink>
     </div>
   </div>
 </template>

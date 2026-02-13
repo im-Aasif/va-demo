@@ -1,0 +1,22 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Home > matches snapshot 1`] = `
+"<div data-v-2dc54a20="" class="home">
+  <h1 data-v-2dc54a20="">Welcome to Your Vue App</h1>
+  <p data-v-2dc54a20="">This is a modern Vue 3 + TypeScript + Vite static site hosted on GitHub Pages.</p>
+  <div class="features" data-v-2dc54a20="">
+    <h2 data-v-2dc54a20="">Features</h2>
+    <ul data-v-2dc54a20="">
+      <li data-v-2dc54a20="">⚡️ Vite 7 - Lightning fast build tool</li>
+      <li data-v-2dc54a20="">🎯 Vue 3 - Progressive JavaScript framework</li>
+      <li data-v-2dc54a20="">📘 TypeScript - Type-safe development</li>
+      <li data-v-2dc54a20="">🛣️ Vue Router 5 - Client-side routing with hash mode</li>
+      <li data-v-2dc54a20="">🚀 GitHub Actions - Automated deployment</li>
+      <li data-v-2dc54a20="">📦 pnpm - Fast, efficient package manager</li>
+    </ul>
+  </div>
+  <div data-v-2dc54a20="" class="actions">
+    <router-link-stub data-v-2dc54a20="" to="/about" replace="false" custom="false" ariacurrentvalue="page" viewtransition="false" class="button"></router-link-stub>
+  </div>
+</div>"
+`;

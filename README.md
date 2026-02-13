@@ -9,7 +9,11 @@ A modern static web application built with Vue 3, TypeScript, and Vite, deployed
 - 📘 **TypeScript** - Type-safe development
 - 🛣️ **Vue Router 5** - Client-side routing with hash mode for GitHub Pages
 - 📦 **pnpm** - Fast, efficient package manager
-- 🚀 **GitHub Actions** - Automated deployment
+- 🚀 **GitHub Actions** - Automated deployment with CI/CD
+- 🎨 **Prettier** - Code formatting
+- 🔍 **ESLint** - Code linting and quality checks
+- ✅ **Vitest** - Unit and snapshot testing
+- 🎭 **Playwright** - End-to-end testing
 
 ## 📦 Development
 
@@ -32,6 +36,24 @@ pnpm build
 
 # Preview production build
 pnpm preview
+
+# Lint code
+pnpm lint
+
+# Format code
+pnpm format
+
+# Run unit tests
+pnpm test
+
+# Run unit tests with UI
+pnpm test:ui
+
+# Run E2E tests
+pnpm test:e2e
+
+# Run E2E tests with UI
+pnpm test:e2e:ui
 ```
 
 ## 🌐 Deployment to GitHub Pages
@@ -39,6 +61,7 @@ pnpm preview
 ### Setup Instructions
 
 1. **Push your code to GitHub**
+
    ```bash
    git add .
    git commit -m "Initial commit"

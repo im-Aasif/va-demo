@@ -33,7 +33,9 @@ import { RouterView, RouterLink } from 'vue-router'
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Helvetica Neue', sans-serif;
   line-height: 1.6;
   color: #333;
 }

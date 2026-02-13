@@ -1,46 +1,65 @@
 <template>
   <div class="about">
     <h1>About This Project</h1>
-    <p>This is a demonstration of a modern static web application built with cutting-edge frontend technologies.</p>
+    <p>
+      This is a demonstration of a modern static web application built with cutting-edge frontend
+      technologies.
+    </p>
 
     <div class="tech-stack">
       <h2>Technology Stack</h2>
-      
+
       <div class="tech-item">
         <h3>Build Tool</h3>
-        <p><strong>Vite 7</strong> - Next generation frontend tooling with instant HMR and lightning-fast builds using esbuild and Rollup.</p>
+        <p>
+          <strong>Vite 7</strong> - Next generation frontend tooling with instant HMR and
+          lightning-fast builds using esbuild and Rollup.
+        </p>
       </div>
 
       <div class="tech-item">
         <h3>Framework</h3>
-        <p><strong>Vue 3</strong> - Progressive framework with Composition API, improved TypeScript support, and better performance.</p>
+        <p>
+          <strong>Vue 3</strong> - Progressive framework with Composition API, improved TypeScript
+          support, and better performance.
+        </p>
       </div>
 
       <div class="tech-item">
         <h3>Language</h3>
-        <p><strong>TypeScript</strong> - Strongly typed superset of JavaScript for better tooling and fewer runtime errors.</p>
+        <p>
+          <strong>TypeScript</strong> - Strongly typed superset of JavaScript for better tooling and
+          fewer runtime errors.
+        </p>
       </div>
 
       <div class="tech-item">
         <h3>Routing</h3>
-        <p><strong>Vue Router 5</strong> - Official router with hash-based history mode for seamless GitHub Pages compatibility.</p>
+        <p>
+          <strong>Vue Router 5</strong> - Official router with hash-based history mode for seamless
+          GitHub Pages compatibility.
+        </p>
       </div>
 
       <div class="tech-item">
         <h3>Package Manager</h3>
-        <p><strong>pnpm</strong> - Fast, disk space efficient package manager with strict dependency resolution.</p>
+        <p>
+          <strong>pnpm</strong> - Fast, disk space efficient package manager with strict dependency
+          resolution.
+        </p>
       </div>
 
       <div class="tech-item">
         <h3>Deployment</h3>
-        <p><strong>GitHub Actions</strong> - Automated CI/CD pipeline that builds and deploys on every push to main branch.</p>
+        <p>
+          <strong>GitHub Actions</strong> - Automated CI/CD pipeline that builds and deploys on
+          every push to main branch.
+        </p>
       </div>
     </div>
 
     <div class="actions">
-      <RouterLink to="/" class="button">
-        ← Back to Home
-      </RouterLink>
+      <RouterLink to="/" class="button"> ← Back to Home </RouterLink>
     </div>
   </div>
 </template>

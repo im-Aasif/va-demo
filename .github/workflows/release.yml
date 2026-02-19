@@ -70,11 +70,12 @@ jobs:
           npm version "$BUMP" --no-git-tag-version
           echo "version=$(node -p "require('./package.json').version")" >> "$GITHUB_OUTPUT"
 
-      - name: Commit version bump to develop
+      - name: Commit version bump to release branch
         run: |
+          git checkout -b release/v${{ steps.version.outputs.version }}
           git add package.json
           git commit -m "chore: bump version to ${{ steps.version.outputs.version }}"
-          git push origin develop
+          git push origin release/v${{ steps.version.outputs.version }}
 
       - name: Create release pull request
         uses: actions/github-script@v7
@@ -84,7 +85,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               title: `chore: release v${{ steps.version.outputs.version }}`,
-              head: 'develop',
+              head: `release/v${{ steps.version.outputs.version }}`,
               base: 'main',
               body: [
                 `## Release v${{ steps.version.outputs.version }}`,
